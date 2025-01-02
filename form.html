@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="/form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="/jquery.validate.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="outerbox">
+        <div class="innerbox">
+            <form id="form">
+                <div id="reg"> Registration Form</div>
+                <p>
+                    <label for="fname" >First Name</label> <br>
+                    <input id="fname" type="text" name="fname" placeholder="Enter First Name">
+                </p>
+                <p>
+                    <label for="lname" >Last Name</label><br>
+                    <input id="lname" type="text" name="lname" placeholder="Enter Last Name" >
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" name="email" placeholder="talhaijaz412@gmail.com" >
+                </p>
+                <p>
+                    <label for="number" >Phone Number</label><br>
+                    <input id="number" type="number" name="number" placeholder="03075111680">
+                </p>
+                <p>
+                    <label for="password" >Password</label><br>
+                    <input id="password" type="password" name="password" placeholder="Enter Your password" >
+                </p>
+
+          <input type="submit" id="btn" >
+
+            </form>
+            <button id="btn1">Show data</button>
+            <p id="p1"></p>
+        </div>
+        <!-- <p id="p1"></p> -->
+    </div>
+</body>
+<script src="/form.js"></script>
+
+</html>
